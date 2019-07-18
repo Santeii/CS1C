@@ -1,0 +1,1344 @@
+**************************************************
+*  PROGRAMMED BY : Ryan Martinez
+*  CLASS         : CS1C
+*  SECTION       : MTWTH: 4:00p - 7:20p
+*  Lab #10       : Assignment 10
+**************************************************
+
+Which list would you like to create?
+1 - Integer list
+2 - String list
+3 - Float list
+0 - Exit
+1
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 11
+
+11 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 12
+
+12 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 13
+
+13 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 14
+
+14 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 15
+
+15 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 16
+
+16 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+11 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 6
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+11 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+12 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 5
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+12 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+13 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+14 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+15 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+16 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 1
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 11
+
+11 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 12
+
+12 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 13
+
+13 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 4
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+16 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+16 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+0
+Which list would you like to create?
+1 - Integer list
+2 - String list
+3 - Float list
+0 - Exit
+2
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : yes
+
+yes has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : no
+
+no has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : maybe
+
+maybe has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : possible
+
+possible has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : never
+
+never has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : ever
+
+ever has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+yes is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 6
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+yes has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+no is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 5
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+no has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+maybe has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+possible has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+never has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+ever is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 1
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : yes
+
+yes has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : no
+
+no has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What string would you like to enter : maybe
+
+maybe has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+ever is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 4
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+ever has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+yes has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+no has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+maybe has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+The list is Empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+0
+Which list would you like to create?
+1 - Integer list
+2 - String list
+3 - Float list
+0 - Exit
+3
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.1
+
+1.1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.2
+
+1.2 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.3
+
+1.3 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.4
+
+1.4 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.5
+
+1.5 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.6
+
+1.6 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+1.1 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 6
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.2 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.3 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.4 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.5 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+1.6 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 1
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.1
+
+1.1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.2
+
+1.2 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.3
+
+1.3 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+3
+1.6 is at the top of the list!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 4
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.5
+
+1.5 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What float would you like to enter : 1.7
+
+1.7 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 6
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is NOT empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.6 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.2 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.3 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.5 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1.7 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The list is Empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+5
+The list is empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+6
+The list is NOT full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+0
+Which list would you like to create?
+1 - Integer list
+2 - String list
+3 - Float list
+0 - Exit
+0

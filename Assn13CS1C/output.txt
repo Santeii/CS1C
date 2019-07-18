@@ -1,0 +1,27 @@
+**************************************************
+*  PROGRAMMED BY : Ryan Martinez
+*  CLASS         : CS1C
+*  SECTION       : MTWTH: 4:00p - 7:20p
+*  Lab #13       : Assignment 13
+**************************************************
+
+What would you like to add? PrintThis
+You have input job #1
+
+The string is queued
+
+What would you like to add? Print That
+You have input job #2
+
+Please enter the item you would like to delete: 1
+
+The string is queued
+
+What would you like to add? 1 was printed
+The string is queued
+
+What would you like to add? PrintThere
+
+Please enter the item you would like to delete: 1
+
+The string is queued

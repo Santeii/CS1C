@@ -1,0 +1,149 @@
+\hypertarget{class_purchase}{}\section{Purchase Class Reference}
+\label{class_purchase}\index{Purchase@{Purchase}}
+
+
+Maintains all of the information for a purchase.  
+
+
+
+
+{\ttfamily \#include $<$Purchase.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_purchase_ad08eb8e99875d8973ecbeea1da3e175e}{Purchase} (int \hyperlink{class_purchase_ac11c5f5772648b8e5a8e1dd370982720}{ID}, \hyperlink{class_item}{Item} $\ast$\&item\+Ref, \hyperlink{class_member}{Member} $\ast$\&member\+Ref, int quantity, const \hyperlink{class_date}{Date} \&sale)
+\begin{DoxyCompactList}\small\item\em This is a nondefault constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_purchase_a075ce333db37c0005559a4dac7afb32a}{Purchase} (int \hyperlink{class_purchase_ac11c5f5772648b8e5a8e1dd370982720}{ID}, \hyperlink{class_item}{Item} $\ast$\&item\+Ref, \hyperlink{class_member}{Member} $\ast$\&member\+Ref, int quantity, int year, int month, int day)
+\begin{DoxyCompactList}\small\item\em This is a nondefault constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_purchase_a8ebd6efb2177df6d10fcba514095915f}{$\sim$\+Purchase} ()
+\begin{DoxyCompactList}\small\item\em This is the default deconstructor. \end{DoxyCompactList}\item 
+void {\bfseries Set\+ID} ()\hypertarget{class_purchase_ac23880f64fed84e2237e748bfda10acd}{}\label{class_purchase_ac23880f64fed84e2237e748bfda10acd}
+
+\item 
+\hyperlink{class_item}{Item} $\ast$\& \hyperlink{class_purchase_ae42cfec377bf8338185d21481654f126}{Item\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Item\+Ref return. \end{DoxyCompactList}\item 
+\hyperlink{class_member}{Member} $\ast$\& \hyperlink{class_purchase_ac1b9c14867cc21b71cfd8a8a025d64e1}{Member\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Member\+Ref return. \end{DoxyCompactList}\item 
+int \hyperlink{class_purchase_ac11c5f5772648b8e5a8e1dd370982720}{ID} () const 
+\begin{DoxyCompactList}\small\item\em ID return. \end{DoxyCompactList}\item 
+int \hyperlink{class_purchase_af8915f2329cb353968562a2ccaf9e0df}{Quantity} () const 
+\begin{DoxyCompactList}\small\item\em Quantity return. \end{DoxyCompactList}\item 
+\hyperlink{class_date}{Date} \hyperlink{class_purchase_ac69d08647056818ff0fc61dec674461f}{Date\+Of\+Sale} () const 
+\begin{DoxyCompactList}\small\item\em Date\+Of\+Sale return. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Maintains all of the information for a purchase. 
+
+C\+L\+A\+SS\+: \hyperlink{class_purchase}{Purchase} 
+
+ The \hyperlink{class_purchase}{Purchase} class keeps track of a current purchase, including the id, quantity, and sale date of the purchase. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Purchase@{Purchase}!Purchase@{Purchase}}
+\index{Purchase@{Purchase}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{Purchase(int I\+D, Item $\ast$\&item\+Ref, Member $\ast$\&member\+Ref, int quantity, const Date \&sale)}{Purchase(int ID, Item *&itemRef, Member *&memberRef, int quantity, const Date &sale)}}]{\setlength{\rightskip}{0pt plus 5cm}Purchase\+::\+Purchase (
+\begin{DoxyParamCaption}
+\item[{int}]{ID, }
+\item[{{\bf Item} $\ast$\&}]{item\+Ref, }
+\item[{{\bf Member} $\ast$\&}]{member\+Ref, }
+\item[{int}]{quantity, }
+\item[{const {\bf Date} \&}]{sale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_purchase_ad08eb8e99875d8973ecbeea1da3e175e}{}\label{class_purchase_ad08eb8e99875d8973ecbeea1da3e175e}
+
+
+This is a nondefault constructor. 
+
+This constructor will initialize the variables from the arguments \index{Purchase@{Purchase}!Purchase@{Purchase}}
+\index{Purchase@{Purchase}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{Purchase(int I\+D, Item $\ast$\&item\+Ref, Member $\ast$\&member\+Ref, int quantity, int year, int month, int day)}{Purchase(int ID, Item *&itemRef, Member *&memberRef, int quantity, int year, int month, int day)}}]{\setlength{\rightskip}{0pt plus 5cm}Purchase\+::\+Purchase (
+\begin{DoxyParamCaption}
+\item[{int}]{ID, }
+\item[{{\bf Item} $\ast$\&}]{item\+Ref, }
+\item[{{\bf Member} $\ast$\&}]{member\+Ref, }
+\item[{int}]{quantity, }
+\item[{int}]{year, }
+\item[{int}]{month, }
+\item[{int}]{day}
+\end{DoxyParamCaption}
+)}\hypertarget{class_purchase_a075ce333db37c0005559a4dac7afb32a}{}\label{class_purchase_a075ce333db37c0005559a4dac7afb32a}
+
+
+This is a nondefault constructor. 
+
+This constructor will initialize the variables from the arguments, except instead of copying the date object over, it reads in individual year, month, and day \index{Purchase@{Purchase}!````~Purchase@{$\sim$\+Purchase}}
+\index{````~Purchase@{$\sim$\+Purchase}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{$\sim$\+Purchase()}{~Purchase()}}]{\setlength{\rightskip}{0pt plus 5cm}Purchase\+::$\sim$\+Purchase (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_purchase_a8ebd6efb2177df6d10fcba514095915f}{}\label{class_purchase_a8ebd6efb2177df6d10fcba514095915f}
+
+
+This is the default deconstructor. 
+
+This deconstructor doesn\textquotesingle{}t effect the object at all because there is no dynamic data being used in the object 
+
+\subsection{Member Function Documentation}
+\index{Purchase@{Purchase}!Date\+Of\+Sale@{Date\+Of\+Sale}}
+\index{Date\+Of\+Sale@{Date\+Of\+Sale}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{Date\+Of\+Sale() const }{DateOfSale() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Date} Purchase\+::\+Date\+Of\+Sale (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_purchase_ac69d08647056818ff0fc61dec674461f}{}\label{class_purchase_ac69d08647056818ff0fc61dec674461f}
+
+
+Date\+Of\+Sale return. 
+
+Returns the Date\+Of\+Sale \index{Purchase@{Purchase}!ID@{ID}}
+\index{ID@{ID}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{I\+D() const }{ID() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Purchase\+::\+ID (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_purchase_ac11c5f5772648b8e5a8e1dd370982720}{}\label{class_purchase_ac11c5f5772648b8e5a8e1dd370982720}
+
+
+ID return. 
+
+Returns the ID variable \index{Purchase@{Purchase}!Item\+Ref@{Item\+Ref}}
+\index{Item\+Ref@{Item\+Ref}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{Item\+Ref()}{ItemRef()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Item}$\ast$\& Purchase\+::\+Item\+Ref (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_purchase_ae42cfec377bf8338185d21481654f126}{}\label{class_purchase_ae42cfec377bf8338185d21481654f126}
+
+
+Item\+Ref return. 
+
+This returns what the Item\+Ref is pointing to \index{Purchase@{Purchase}!Member\+Ref@{Member\+Ref}}
+\index{Member\+Ref@{Member\+Ref}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{Member\+Ref()}{MemberRef()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Member}$\ast$\& Purchase\+::\+Member\+Ref (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_purchase_ac1b9c14867cc21b71cfd8a8a025d64e1}{}\label{class_purchase_ac1b9c14867cc21b71cfd8a8a025d64e1}
+
+
+Member\+Ref return. 
+
+This returns what the Member\+Ref is pointing to \index{Purchase@{Purchase}!Quantity@{Quantity}}
+\index{Quantity@{Quantity}!Purchase@{Purchase}}
+\subsubsection[{\texorpdfstring{Quantity() const }{Quantity() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Purchase\+::\+Quantity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_purchase_af8915f2329cb353968562a2ccaf9e0df}{}\label{class_purchase_af8915f2329cb353968562a2ccaf9e0df}
+
+
+Quantity return. 
+
+Returns the Quantity 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Purchase.\+h\end{DoxyCompactItemize}

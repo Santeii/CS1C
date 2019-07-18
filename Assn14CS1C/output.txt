@@ -1,0 +1,81 @@
+**************************************************
+*  PROGRAMMED BY : Ryan Martinez
+*  CLASS         : CS1C
+*  SECTION       : MTWTH: 4:00p - 7:20p
+*  Lab #14       : Assignment 14
+**************************************************
+
+Pick from the menu:
+1 - Static Buffer Overruns
+2 - Heap Overruns
+3 - Boundary Checking Errors
+0 - Exit
+1
+
+BAD
+Enter ten characters for a name: 
+superdupersuper
+superdupersuper
+
+
+GOOD
+Enter ten characters for a name: 
+superdupersuper
+superduper
+
+Pick from the menu:
+1 - Static Buffer Overruns
+2 - Heap Overruns
+3 - Boundary Checking Errors
+0 - Exit
+2
+
+BAD
+An array will be created dynamically
+Please enter number larger than 15 
+16
+Number of memory locations allocated was 16
+This is a test
+Number of memory location allocated was 8854040
+This is a test
+
+GOOD
+An array will be created dynamically
+Please enter number larger than 15 
+16
+Number of memory locations allocated was 16
+This is a test
+The pointers are pointing to NULL
+
+Pick from the menu:
+1 - Static Buffer Overruns
+2 - Heap Overruns
+3 - Boundary Checking Errors
+0 - Exit
+3
+
+BAD
+Please enter an integer: 1
+The integer just entered was 1
+Please enter an integer: 2
+The integer just entered was 2
+Please enter an integer: 3
+The integer just entered was 3
+Please enter an integer: 4
+The integer just entered was 4
+
+GOOD
+Please enter an integer: 1
+The integer just entered was 1
+Please enter an integer: 2
+The integer just entered was 2
+Please enter an integer: 3
+The integer just entered was 3
+
+
+Pick from the menu:
+1 - Static Buffer Overruns
+2 - Heap Overruns
+3 - Boundary Checking Errors
+0 - Exit
+0

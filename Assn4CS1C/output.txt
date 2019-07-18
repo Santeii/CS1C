@@ -1,0 +1,36 @@
+**************************************************
+*  PROGRAMMED BY : Ryan Martinez
+*  CLASS         : CS1C
+*  SECTION       : MTWTH: 4:00p - 7:20p
+*  Lab #4        : Assignment 4
+**************************************************
+
+These are equal!
+
+These are NOT equal!
+
+These are equal!
+
+These are NOT equal!
+
+6 years added
+
+10 years added
+
+Input name: John Smith
+Input ID: 201554
+Input age: 36
+Input gender: M
+Input title: Programmer
+Input salary: 56000
+Input hire date: 
+Input month: 8
+Input day: 3
+Input year: 2012
+John Smith
+201554
+36
+M
+Programmer
+56000
+8/3/2012

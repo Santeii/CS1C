@@ -1,0 +1,231 @@
+**************************************************
+*  PROGRAMMED BY : Ryan Martinez
+*  CLASS         : CS1C
+*  SECTION       : MTWTH: 4:00p - 7:20p
+*  Lab #11       : Assignment 11
+**************************************************
+
+Which list would you like to create?
+1 - Integer list
+2 - String list
+3 - Float list
+4 - Assert Macro
+0 - Exit
+1
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+
+1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+
+1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+
+1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+
+1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+
+1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+
+1 has been added to the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+1
+What number would you like to enter : 1
+The queue is full!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The size of the list is 6
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+
+1 has been deleted from the queue
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+2
+The list is Empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+4
+The list is Empty!
+
+What would you like to do with your queue?
+1 - Enqueue
+2 - Dequeue
+3 - Front
+4 - Size
+5 - IsEmpty
+6 - IsFull
+0 - Exit
+0
+Which list would you like to create?
+1 - Integer list
+2 - String list
+3 - Float list
+4 - Assert Macro
+0 - Exit
+4
+Assertion failed: 2+2==5, file ..\main.cpp, line 316
+
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+The assert macro passes

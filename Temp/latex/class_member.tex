@@ -1,0 +1,299 @@
+\hypertarget{class_member}{}\section{Member Class Reference}
+\label{class_member}\index{Member@{Member}}
+
+
+Keeps track of all of the aspects of a member.  
+
+
+
+
+{\ttfamily \#include $<$Member.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_member_a44241aa6aa9b792b550d9cc29e7ad050}{Member} ()
+\begin{DoxyCompactList}\small\item\em This is a default constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_member_aaba53c848d96f8612112bf13401ad1ef}{Member} (int id, const Q\+String \&name, float spent, const \hyperlink{class_date}{Date} \&expires)
+\begin{DoxyCompactList}\small\item\em This is a nondefault constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_member_a83f3b1e6044c453f100090e5135327b2}{Member} (int id, const Q\+String \&name, float spent, int year, int month, int day)
+\begin{DoxyCompactList}\small\item\em This is a nondefault constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_member_a045f335f95c4d4d46ddf59b715a822a0}{Member} (int id, const Q\+String \&name, float spent, bool premium, const \hyperlink{class_date}{Date} \&expires)
+\begin{DoxyCompactList}\small\item\em This is a nondefault constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_member_a8635ea86acc412cb9dedf7773f01b0fb}{Member} (int id, const Q\+String \&name, float spent, bool premium, int year, int month, int day)
+\begin{DoxyCompactList}\small\item\em This is a nondefault constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_member_a9e993260f63c73a91f1cb9b55fcef903}{$\sim$\+Member} ()
+\begin{DoxyCompactList}\small\item\em This is a virtual deconstructor. \end{DoxyCompactList}\item 
+int \hyperlink{class_member_ade792a4814b246281de4fe2a5017e5d6}{Id} () const 
+\begin{DoxyCompactList}\small\item\em Id return. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{class_member_a5bac99875876ae00c127d47aa69370ff}{Name} () const 
+\begin{DoxyCompactList}\small\item\em Name return. \end{DoxyCompactList}\item 
+\hyperlink{class_date}{Date} \hyperlink{class_member_a38d327ef94499ef08c51b8a4791d6974}{Expires} () const 
+\begin{DoxyCompactList}\small\item\em Expires return. \end{DoxyCompactList}\item 
+bool \hyperlink{class_member_acc79ba154fd76148d5c34c3df7f0f1bf}{Premium} () const 
+\begin{DoxyCompactList}\small\item\em Premium return. \end{DoxyCompactList}\item 
+double \hyperlink{class_member_aa34e695e052dbdaf47f39388d524b9ee}{Spent} () const 
+\begin{DoxyCompactList}\small\item\em Spent return. \end{DoxyCompactList}\item 
+double \hyperlink{class_member_ab6a428e16603847fb696a9a5c90f9143}{Rebate} () const 
+\begin{DoxyCompactList}\small\item\em Rebate return. \end{DoxyCompactList}\item 
+bool \hyperlink{class_member_ab51d2e131d03ed0120648cce975b77d1}{Active} () const 
+\begin{DoxyCompactList}\small\item\em Active return. \end{DoxyCompactList}\item 
+void \hyperlink{class_member_a1003f8aaaf3d11141a642fe3a330527d}{Change\+Name} (const Q\+String \&)
+\begin{DoxyCompactList}\small\item\em Changes the name of the member. \end{DoxyCompactList}\item 
+void \hyperlink{class_member_a00269243882b9e39dacfdcbcc885c307}{Set\+Active} (bool is\+Active)
+\begin{DoxyCompactList}\small\item\em Changes the active membership of the member. \end{DoxyCompactList}\item 
+void \hyperlink{class_member_a835b9172cfe0a9ab0ad23c8843175562}{Upgrade\+Membership} ()
+\begin{DoxyCompactList}\small\item\em Upgrades the member\textquotesingle{}s membership. \end{DoxyCompactList}\item 
+void \hyperlink{class_member_a87fe6a012352d66c332c8a4f36c58c0c}{Downgrade\+Membership} ()
+\begin{DoxyCompactList}\small\item\em Downgrades the member\textquotesingle{}s membership. \end{DoxyCompactList}\item 
+void \hyperlink{class_member_a13fe2db5fd5eee4754c4d55ee0dd7ef5}{Change\+Expiration\+Date} (const \hyperlink{class_date}{Date} \&)
+\begin{DoxyCompactList}\small\item\em Changes the expiration date of the membership. \end{DoxyCompactList}\item 
+void \hyperlink{class_member_a520c6c140590c66aa2d9b60aada1b684}{Change\+Expiration\+Date} (int year, int month, int day)
+\begin{DoxyCompactList}\small\item\em Changes the expiration date of the membership. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Keeps track of all of the aspects of a member. 
+
+C\+L\+A\+SS\+: \hyperlink{class_member}{Member} 
+
+ The \hyperlink{class_member}{Member} class keeps track of a member, including the id, name, spent, premium, expires, and the active membership of the member 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Member@{Member}!Member@{Member}}
+\index{Member@{Member}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Member()}{Member()}}]{\setlength{\rightskip}{0pt plus 5cm}Member\+::\+Member (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a44241aa6aa9b792b550d9cc29e7ad050}{}\label{class_member_a44241aa6aa9b792b550d9cc29e7ad050}
+
+
+This is a default constructor. 
+
+This constructor will initialize the variables \index{Member@{Member}!Member@{Member}}
+\index{Member@{Member}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Member(int id, const Q\+String \&name, float spent, const Date \&expires)}{Member(int id, const QString &name, float spent, const Date &expires)}}]{\setlength{\rightskip}{0pt plus 5cm}Member\+::\+Member (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{const Q\+String \&}]{name, }
+\item[{float}]{spent, }
+\item[{const {\bf Date} \&}]{expires}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_aaba53c848d96f8612112bf13401ad1ef}{}\label{class_member_aaba53c848d96f8612112bf13401ad1ef}
+
+
+This is a nondefault constructor. 
+
+This constructor will initialize the variables from the arguments \index{Member@{Member}!Member@{Member}}
+\index{Member@{Member}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Member(int id, const Q\+String \&name, float spent, int year, int month, int day)}{Member(int id, const QString &name, float spent, int year, int month, int day)}}]{\setlength{\rightskip}{0pt plus 5cm}Member\+::\+Member (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{const Q\+String \&}]{name, }
+\item[{float}]{spent, }
+\item[{int}]{year, }
+\item[{int}]{month, }
+\item[{int}]{day}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a83f3b1e6044c453f100090e5135327b2}{}\label{class_member_a83f3b1e6044c453f100090e5135327b2}
+
+
+This is a nondefault constructor. 
+
+This constructor will initialize the variables from the arguments \index{Member@{Member}!Member@{Member}}
+\index{Member@{Member}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Member(int id, const Q\+String \&name, float spent, bool premium, const Date \&expires)}{Member(int id, const QString &name, float spent, bool premium, const Date &expires)}}]{\setlength{\rightskip}{0pt plus 5cm}Member\+::\+Member (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{const Q\+String \&}]{name, }
+\item[{float}]{spent, }
+\item[{bool}]{premium, }
+\item[{const {\bf Date} \&}]{expires}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a045f335f95c4d4d46ddf59b715a822a0}{}\label{class_member_a045f335f95c4d4d46ddf59b715a822a0}
+
+
+This is a nondefault constructor. 
+
+This constructor will initialize the variables from the arguments \index{Member@{Member}!Member@{Member}}
+\index{Member@{Member}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Member(int id, const Q\+String \&name, float spent, bool premium, int year, int month, int day)}{Member(int id, const QString &name, float spent, bool premium, int year, int month, int day)}}]{\setlength{\rightskip}{0pt plus 5cm}Member\+::\+Member (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{const Q\+String \&}]{name, }
+\item[{float}]{spent, }
+\item[{bool}]{premium, }
+\item[{int}]{year, }
+\item[{int}]{month, }
+\item[{int}]{day}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a8635ea86acc412cb9dedf7773f01b0fb}{}\label{class_member_a8635ea86acc412cb9dedf7773f01b0fb}
+
+
+This is a nondefault constructor. 
+
+This constructor will initialize the variables from the arguments \index{Member@{Member}!````~Member@{$\sim$\+Member}}
+\index{````~Member@{$\sim$\+Member}!Member@{Member}}
+\subsubsection[{\texorpdfstring{$\sim$\+Member()}{~Member()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Member\+::$\sim$\+Member (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_member_a9e993260f63c73a91f1cb9b55fcef903}{}\label{class_member_a9e993260f63c73a91f1cb9b55fcef903}
+
+
+This is a virtual deconstructor. 
+
+This deconstructor does nothing 
+
+\subsection{Member Function Documentation}
+\index{Member@{Member}!Active@{Active}}
+\index{Active@{Active}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Active() const }{Active() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Member\+::\+Active (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_ab51d2e131d03ed0120648cce975b77d1}{}\label{class_member_ab51d2e131d03ed0120648cce975b77d1}
+
+
+Active return. 
+
+This returns what the Active is pointing to \index{Member@{Member}!Change\+Expiration\+Date@{Change\+Expiration\+Date}}
+\index{Change\+Expiration\+Date@{Change\+Expiration\+Date}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Change\+Expiration\+Date(const Date \&)}{ChangeExpirationDate(const Date &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Member\+::\+Change\+Expiration\+Date (
+\begin{DoxyParamCaption}
+\item[{const {\bf Date} \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a13fe2db5fd5eee4754c4d55ee0dd7ef5}{}\label{class_member_a13fe2db5fd5eee4754c4d55ee0dd7ef5}
+
+
+Changes the expiration date of the membership. 
+
+This function uses the date argument to update the expiration date \index{Member@{Member}!Change\+Expiration\+Date@{Change\+Expiration\+Date}}
+\index{Change\+Expiration\+Date@{Change\+Expiration\+Date}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Change\+Expiration\+Date(int year, int month, int day)}{ChangeExpirationDate(int year, int month, int day)}}]{\setlength{\rightskip}{0pt plus 5cm}void Member\+::\+Change\+Expiration\+Date (
+\begin{DoxyParamCaption}
+\item[{int}]{year, }
+\item[{int}]{month, }
+\item[{int}]{day}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a520c6c140590c66aa2d9b60aada1b684}{}\label{class_member_a520c6c140590c66aa2d9b60aada1b684}
+
+
+Changes the expiration date of the membership. 
+
+This function uses the year, month, and day arguments to update the expiration date \index{Member@{Member}!Change\+Name@{Change\+Name}}
+\index{Change\+Name@{Change\+Name}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Change\+Name(const Q\+String \&)}{ChangeName(const QString &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Member\+::\+Change\+Name (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a1003f8aaaf3d11141a642fe3a330527d}{}\label{class_member_a1003f8aaaf3d11141a642fe3a330527d}
+
+
+Changes the name of the member. 
+
+This function updates the member name \index{Member@{Member}!Downgrade\+Membership@{Downgrade\+Membership}}
+\index{Downgrade\+Membership@{Downgrade\+Membership}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Downgrade\+Membership()}{DowngradeMembership()}}]{\setlength{\rightskip}{0pt plus 5cm}void Member\+::\+Downgrade\+Membership (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a87fe6a012352d66c332c8a4f36c58c0c}{}\label{class_member_a87fe6a012352d66c332c8a4f36c58c0c}
+
+
+Downgrades the member\textquotesingle{}s membership. 
+
+This function sets the flag to false \index{Member@{Member}!Expires@{Expires}}
+\index{Expires@{Expires}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Expires() const }{Expires() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Date} Member\+::\+Expires (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_a38d327ef94499ef08c51b8a4791d6974}{}\label{class_member_a38d327ef94499ef08c51b8a4791d6974}
+
+
+Expires return. 
+
+This returns what the Expires is pointing to \index{Member@{Member}!Id@{Id}}
+\index{Id@{Id}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Id() const }{Id() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Member\+::\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_ade792a4814b246281de4fe2a5017e5d6}{}\label{class_member_ade792a4814b246281de4fe2a5017e5d6}
+
+
+Id return. 
+
+This returns what the Id is pointing to \index{Member@{Member}!Name@{Name}}
+\index{Name@{Name}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Name() const }{Name() const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Member\+::\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_a5bac99875876ae00c127d47aa69370ff}{}\label{class_member_a5bac99875876ae00c127d47aa69370ff}
+
+
+Name return. 
+
+This returns what the Name is pointing to \index{Member@{Member}!Premium@{Premium}}
+\index{Premium@{Premium}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Premium() const }{Premium() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Member\+::\+Premium (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_acc79ba154fd76148d5c34c3df7f0f1bf}{}\label{class_member_acc79ba154fd76148d5c34c3df7f0f1bf}
+
+
+Premium return. 
+
+This returns what the Premium is pointing to \index{Member@{Member}!Rebate@{Rebate}}
+\index{Rebate@{Rebate}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Rebate() const }{Rebate() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Member\+::\+Rebate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_ab6a428e16603847fb696a9a5c90f9143}{}\label{class_member_ab6a428e16603847fb696a9a5c90f9143}
+
+
+Rebate return. 
+
+This returns what the Rebate is pointing to \index{Member@{Member}!Set\+Active@{Set\+Active}}
+\index{Set\+Active@{Set\+Active}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Set\+Active(bool is\+Active)}{SetActive(bool isActive)}}]{\setlength{\rightskip}{0pt plus 5cm}void Member\+::\+Set\+Active (
+\begin{DoxyParamCaption}
+\item[{bool}]{is\+Active}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a00269243882b9e39dacfdcbcc885c307}{}\label{class_member_a00269243882b9e39dacfdcbcc885c307}
+
+
+Changes the active membership of the member. 
+
+This function updates the member\textquotesingle{}s active membership \index{Member@{Member}!Spent@{Spent}}
+\index{Spent@{Spent}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Spent() const }{Spent() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Member\+::\+Spent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_member_aa34e695e052dbdaf47f39388d524b9ee}{}\label{class_member_aa34e695e052dbdaf47f39388d524b9ee}
+
+
+Spent return. 
+
+This returns what the Spent is pointing to \index{Member@{Member}!Upgrade\+Membership@{Upgrade\+Membership}}
+\index{Upgrade\+Membership@{Upgrade\+Membership}!Member@{Member}}
+\subsubsection[{\texorpdfstring{Upgrade\+Membership()}{UpgradeMembership()}}]{\setlength{\rightskip}{0pt plus 5cm}void Member\+::\+Upgrade\+Membership (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_member_a835b9172cfe0a9ab0ad23c8843175562}{}\label{class_member_a835b9172cfe0a9ab0ad23c8843175562}
+
+
+Upgrades the member\textquotesingle{}s membership. 
+
+This function sets the flag to true 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Member.\+h\end{DoxyCompactItemize}

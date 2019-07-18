@@ -1,0 +1,197 @@
+\hypertarget{class_database}{}\section{Database Class Reference}
+\label{class_database}\index{Database@{Database}}
+
+
+The \hyperlink{class_database}{Database} class Is a wrapper for the sqlite database.  
+
+
+
+
+{\ttfamily \#include $<$database.\+h$>$}
+
+Inheritance diagram for Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_database}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_database_a84d399a2ad58d69daab9b05330e1316d}{$\sim$\+Database} ()
+\begin{DoxyCompactList}\small\item\em This is a default deconstructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_database_a758e61f68f8c15b1cbce3a33a7cf47d6}{Add\+Item} (\hyperlink{class_item}{Item} item)
+\begin{DoxyCompactList}\small\item\em Adds a new item to the database. \end{DoxyCompactList}\item 
+void \hyperlink{class_database_a30727815c52554ab2c16241a800cad4a}{Update\+Item} (\hyperlink{class_item}{Item} item)
+\begin{DoxyCompactList}\small\item\em Update an item. \end{DoxyCompactList}\item 
+bool \hyperlink{class_database_a78954f7fa149e4e8b3e67d16b25eaf95}{Delete\+Item} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes an item. \end{DoxyCompactList}\item 
+\hyperlink{class_item}{Item} \hyperlink{class_database_a6a08b00282577ba5872e5d204a3a8a1f}{Get\+Item\+By\+ID} (int id)
+\begin{DoxyCompactList}\small\item\em Gets an item by checking the input ID. \end{DoxyCompactList}\item 
+Q\+Sql\+Table\+Model $\ast$ \hyperlink{class_database_af31b0f441345116776e4f79c3944b3c9}{Get\+All\+Items} ()
+\begin{DoxyCompactList}\small\item\em Gets all items from the database. \end{DoxyCompactList}\item 
+void \hyperlink{class_database_a9989a7c15d345e2158795ae5e07fe162}{Add\+User} (\hyperlink{class_member}{Member} member)
+\begin{DoxyCompactList}\small\item\em Adds a user to the database. \end{DoxyCompactList}\item 
+Q\+Sql\+Table\+Model $\ast$ \hyperlink{class_database_a814cf5256dbd1660e3db8beb3a49ebf1}{Get\+All\+Members} ()
+\begin{DoxyCompactList}\small\item\em Gets all of the members from the database. \end{DoxyCompactList}\item 
+Q\+Sql\+Table\+Model $\ast$ \hyperlink{class_database_a68f574c4873b6687715bb0decc752ada}{Get\+Filtered\+Members} (Q\+String month)
+\begin{DoxyCompactList}\small\item\em Gets all of the filtered members from the database. \end{DoxyCompactList}\item 
+void \hyperlink{class_database_a908114ff4d6dc748ebdd2579ebd6c79c}{Add\+Purchase} (\hyperlink{class_purchase}{Purchase} purchase)
+\begin{DoxyCompactList}\small\item\em Adds a purchase to the database. \end{DoxyCompactList}\item 
+Q\+Sql\+Table\+Model $\ast$ \hyperlink{class_database_a9f87a20b8475c8f02845aaf5bf039cbe}{Get\+All\+Purchases} ()
+\begin{DoxyCompactList}\small\item\em Gets all of the purchases from the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_database}{Database} $\ast$ \hyperlink{class_database_a263f3471515ca1bb7ea0a096f7502d49}{Get\+Instance} ()
+\begin{DoxyCompactList}\small\item\em Gets a new database instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_database}{Database} class Is a wrapper for the sqlite database. 
+
+C\+L\+A\+SS\+: \hyperlink{class_database}{Database} 
+
+ This database class copies data over from sqlite and formats it to be used in cpp 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Database@{Database}!````~Database@{$\sim$\+Database}}
+\index{````~Database@{$\sim$\+Database}!Database@{Database}}
+\subsubsection[{\texorpdfstring{$\sim$\+Database()}{~Database()}}]{\setlength{\rightskip}{0pt plus 5cm}Database\+::$\sim$\+Database (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a84d399a2ad58d69daab9b05330e1316d}{}\label{class_database_a84d399a2ad58d69daab9b05330e1316d}
+
+
+This is a default deconstructor. 
+
+This deconstructor deletes any dynamically allocated data for the class 
+
+\subsection{Member Function Documentation}
+\index{Database@{Database}!Add\+Item@{Add\+Item}}
+\index{Add\+Item@{Add\+Item}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Add\+Item(\+Item item)}{AddItem(Item item)}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Add\+Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Item}}]{item}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a758e61f68f8c15b1cbce3a33a7cf47d6}{}\label{class_database_a758e61f68f8c15b1cbce3a33a7cf47d6}
+
+
+Adds a new item to the database. 
+
+This function inserts a new item in to the database by inserting a name, quantity, price, and onshelf \index{Database@{Database}!Add\+Purchase@{Add\+Purchase}}
+\index{Add\+Purchase@{Add\+Purchase}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Add\+Purchase(\+Purchase purchase)}{AddPurchase(Purchase purchase)}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Add\+Purchase (
+\begin{DoxyParamCaption}
+\item[{{\bf Purchase}}]{purchase}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a908114ff4d6dc748ebdd2579ebd6c79c}{}\label{class_database_a908114ff4d6dc748ebdd2579ebd6c79c}
+
+
+Adds a purchase to the database. 
+
+This function uses the argument purchase and adds it to the database \index{Database@{Database}!Add\+User@{Add\+User}}
+\index{Add\+User@{Add\+User}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Add\+User(\+Member member)}{AddUser(Member member)}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Add\+User (
+\begin{DoxyParamCaption}
+\item[{{\bf Member}}]{member}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a9989a7c15d345e2158795ae5e07fe162}{}\label{class_database_a9989a7c15d345e2158795ae5e07fe162}
+
+
+Adds a user to the database. 
+
+This function will use the member object passed in as an argument and then gets added to the database \index{Database@{Database}!Delete\+Item@{Delete\+Item}}
+\index{Delete\+Item@{Delete\+Item}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Delete\+Item(int id)}{DeleteItem(int id)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Database\+::\+Delete\+Item (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a78954f7fa149e4e8b3e67d16b25eaf95}{}\label{class_database_a78954f7fa149e4e8b3e67d16b25eaf95}
+
+
+Deletes an item. 
+
+This function will check to see if there is data left to be exectued and return true , if not then it will return false \index{Database@{Database}!Get\+All\+Items@{Get\+All\+Items}}
+\index{Get\+All\+Items@{Get\+All\+Items}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Get\+All\+Items()}{GetAllItems()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Table\+Model$\ast$ Database\+::\+Get\+All\+Items (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_af31b0f441345116776e4f79c3944b3c9}{}\label{class_database_af31b0f441345116776e4f79c3944b3c9}
+
+
+Gets all items from the database. 
+
+Creates a new Q\+Sql\+Table\+Model and selects all items to be put in to the new table \index{Database@{Database}!Get\+All\+Members@{Get\+All\+Members}}
+\index{Get\+All\+Members@{Get\+All\+Members}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Get\+All\+Members()}{GetAllMembers()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Table\+Model$\ast$ Database\+::\+Get\+All\+Members (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a814cf5256dbd1660e3db8beb3a49ebf1}{}\label{class_database_a814cf5256dbd1660e3db8beb3a49ebf1}
+
+
+Gets all of the members from the database. 
+
+This function creates a new Q\+Sql\+Table\+Model and selects all of the members to be put in to the new table \index{Database@{Database}!Get\+All\+Purchases@{Get\+All\+Purchases}}
+\index{Get\+All\+Purchases@{Get\+All\+Purchases}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Get\+All\+Purchases()}{GetAllPurchases()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Table\+Model$\ast$ Database\+::\+Get\+All\+Purchases (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a9f87a20b8475c8f02845aaf5bf039cbe}{}\label{class_database_a9f87a20b8475c8f02845aaf5bf039cbe}
+
+
+Gets all of the purchases from the database. 
+
+This function creates a new Q\+Sql\+Table\+Model and selects all of the filtered members to be put in to the new table \index{Database@{Database}!Get\+Filtered\+Members@{Get\+Filtered\+Members}}
+\index{Get\+Filtered\+Members@{Get\+Filtered\+Members}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Get\+Filtered\+Members(\+Q\+String month)}{GetFilteredMembers(QString month)}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Table\+Model$\ast$ Database\+::\+Get\+Filtered\+Members (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{month}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a68f574c4873b6687715bb0decc752ada}{}\label{class_database_a68f574c4873b6687715bb0decc752ada}
+
+
+Gets all of the filtered members from the database. 
+
+This function creates a new Q\+Sql\+Table\+Model and selects all of the filtered members to be put in to the new table \index{Database@{Database}!Get\+Instance@{Get\+Instance}}
+\index{Get\+Instance@{Get\+Instance}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Get\+Instance()}{GetInstance()}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Database}$\ast$ Database\+::\+Get\+Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_database_a263f3471515ca1bb7ea0a096f7502d49}{}\label{class_database_a263f3471515ca1bb7ea0a096f7502d49}
+
+
+Gets a new database instance. 
+
+This constructor return a new instance of the database \index{Database@{Database}!Get\+Item\+By\+ID@{Get\+Item\+By\+ID}}
+\index{Get\+Item\+By\+ID@{Get\+Item\+By\+ID}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Get\+Item\+By\+I\+D(int id)}{GetItemByID(int id)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Item} Database\+::\+Get\+Item\+By\+ID (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a6a08b00282577ba5872e5d204a3a8a1f}{}\label{class_database_a6a08b00282577ba5872e5d204a3a8a1f}
+
+
+Gets an item by checking the input ID. 
+
+This function checks the item ID until it finds a match and then returns the item \index{Database@{Database}!Update\+Item@{Update\+Item}}
+\index{Update\+Item@{Update\+Item}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Update\+Item(\+Item item)}{UpdateItem(Item item)}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Update\+Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Item}}]{item}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a30727815c52554ab2c16241a800cad4a}{}\label{class_database_a30727815c52554ab2c16241a800cad4a}
+
+
+Update an item. 
+
+This function uses values from the item in the argument and transfers the data in to the database 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+database.\+h\end{DoxyCompactItemize}

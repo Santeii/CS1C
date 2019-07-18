@@ -1,0 +1,12 @@
+**************************************************
+*  PROGRAMMED BY : Ryan Martinez
+*  CLASS         : CS1C
+*  SECTION       : MTWTH: 4:00p - 7:20p
+*  Lab #6        : Assignment 6
+**************************************************
+
+Rectangle Area: 12
+Rectangle Perimeter: 16
+
+Triangle Area: 24
+Triangle Perimeter: 24
